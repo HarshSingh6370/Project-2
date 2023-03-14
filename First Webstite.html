@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="Web designing.css">
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+	<title>Responsive Team Slider using Bootstrap & Owl Carousel 2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="Web designing.css" rel="stylesheet">
+
+
+<script>
+    $(document).ready(function(){
+        // Toggles paragraphs display with sliding
+        $(".box1").hover(function(){
+            $(".content-1").fadeToggle();
+        });
+    });
+
+    $(document).ready(function(){
+        // Toggles paragraphs display with sliding
+        $(".box2").hover(function(){
+            $(".content-2").fadeToggle();
+        });
+    });
+
+    $(document).ready(function(){
+        // Toggles paragraphs display with sliding
+        $(".box3").hover(function(){
+            $(".content-3").fadeToggle();
+        });
+    });
+    </script>
+    <script>
+        var count1=0;
+        setInterval(function(){
+            if(count1<=520){
+                document.getElementById("projects").innerText=count1+"+";
+                count1++;
+            }
+        },20);
+
+        var count2=0;
+        setInterval(function(){
+            if(count2<=244){
+                document.getElementById("project2").innerText=count2;
+                count2++;
+            }
+        },100);
+
+        var count3=0;
+        setInterval(function(){
+            if(count3<=100){
+                document.getElementById("project3").innerText=count3+"%";
+                count3++;
+            }
+        },150);
+
+        $(document).ready(function(){
+        
+        $(".box4").hover(function(){
+            $(".content-4").slideToggle(1000);
+        });
+    });
+   
+    
+    $(document).ready(function(){
+        
+        $(".box5").hover(function(){
+            $(".content-5").slideToggle(1000);
+        });
+    });
+
+    
+    $(document).ready(function(){
+        
+        $(".box6").hover(function(){
+            $(".content-6").slideToggle(1000);
+        });
+    });
+
+    
+    $(document).ready(function(){
+        
+        $(".box7").hover(function(){
+            $(".content-7").slideToggle(1000);
+        });
+    });
+
+    $(document).ready(function(){
+        
+        $(".box8").hover(function(){
+            $(".content-8").slideToggle(1000);
+        });
+    });
+
+
+    </script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md  navbar-dark sticky-top navbar" style="padding: 20px;background-color: rgb(57, 58, 59);width: auto;">
+<div class="container" >
+    <a href="" class="navbar-brand text-white font-weight-bold " style="font-style: italic;"><img src="https://preview.colorlib.com/theme/busicol/img/logo.png.webp"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center " id="collapsenavbar">
+        <ul class="navbar-nav ml-auto " >
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" style="font-weight:bold;margin-right: 100px;">Home</a>
+            </li> 
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" style="font-weight:bold;margin-right: 100px;">Login</a>
+            </li> 
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" style="font-weight:bold;margin-right: 100px;">AboutUs</a>
+            </li> 
+</ul>
+
+<form class="d-flex ms-auto">
+    <input type="text" class="form-control me-sm-2" placeholder="Search">
+    <button type="submit" class="btn btn-outline-light">Search</button>
+</form>
+    </div>
+</div>
+</nav>
+
+
+
+    <div id="myCarousel" class="carousel slide " data-bs-ride="carousel" >
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" ></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+           
+        </ol>
+    
+<!-- Wrapper for carousel items -->
+<div class="carousel-inner">
+    <div class="carousel-item active" style="height: 600px;">
+        <img src="https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  class="d-block d-md-block  w-100" alt="Slide 1" style="    @media screen and (min-width: 360px) and (max-width:480px){height:400px}">
+        <div class="carousel-caption top-0 mt-4  " >
+            <h1 style="font-size: 50px;font-weight: bolder;color: crimson;text-align: center;margin-top: 300px;font-style: italic;">Grow Big With <br>
+            Musicol Business</h1>
+            
+            <div class="mt-4">
+                <button type="button" class="btn btn-primary btn-lg" style="margin-right: 20px;">Learn More...</button>
+            </div>
+        
+        </div>
+    </div>
+    <div class="carousel-item " style="height: 600px;">
+        <img src="https://images.pexels.com/photos/4549406/pexels-photo-4549406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Slide 2" >
+        <div class="carousel-caption  top-0 mt-4" >
+            <h1 style="font-size: 50px;font-weight: bolder;color: crimson;text-align: center;margin-top: 300px;font-style: italic;">Grow Big With <br>
+            Musicol Business</h1>
+
+            <div class="m-4">
+                <button type="button" class="btn btn-primary btn-lg" style="margin-right: 20px;">Learn More...</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+ </div>
+    
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    
+    
+<br>
+<br>
+<br>
+
+
+<h1 style="padding-left: 600px;padding-bottom: 50px;">Explore Our Solutions</h1>
+
+<div id="tanker" style="height: 300px;width: 1000px;margin: auto;display:flex;justify-content: space-between;">
+ <div class="box1" style="border: 1px solid black;height: 250px;width: 300px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://th.bing.com/th/id/OIP.3sJZLqTteu7chqB89nGIQwHaEo?pid=ImgDet&rs=1);position: relative;overflow: hidden;">
+ <div class="face-1" >
+        
+<svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16" style="padding-left:100px">
+<path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+ </svg>
+</div>
+ <div class="content-1"  style="text-align:center;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;color: white;padding: 20px;box-sizing: border-box;">
+<h5 style="padding-top: 40px;">Invoicing</h5>
+<p>These cases are perfectly simple and easy to distinguish. In a free hour power.</p>
+    </div>
+    </div>
+
+
+    <div class="box2" style="border: 1px solid black;height: 250px;width: 300px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));;background-image: url(https://th.bing.com/th/id/OIP.Oosgbvd-PmI5apgpCAigzQAAAA?pid=ImgDet&w=380&h=253&rs=1);position: relative;overflow: hidden;">
+        <div class="face-2" >
+        
+            <svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16" style="padding-left: 100px;">
+            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+          </svg>
+          
+        </div>
+        <div class="content-2" style="text-align:center;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;color: white;padding: 20px;box-sizing: border-box;">
+            <h5 style="padding-top: 40px;">Business Growth</h5>
+    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.</p>
+        </div>
+        </div>
+
+        <div class="box3" style="border: 1px solid black;height: 250px;width: 300px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://image.freepik.com/free-vector/white-technology-background-abstract-style_23-2148392757.jpg);position: relative;overflow: hidden;">
+            <div class="face-3" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" fill="currentColor" class="bi bi-bank2" viewBox="0 0 16 16" style="padding-left: 100px;">
+                    <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"/>
+                  </svg>        
+            </div>
+            <div class="content-3" style="text-align:center;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));;position: absolute;top: 0;left: 0;height: 100%;color: white;padding: 20px;box-sizing: border-box;">
+                <h5 style="padding-top: 40px;">Problem Solving</h5>
+        <p>These cases are perfectly simple and easy to distinguish. In a free hour power.</p>
+            </div>
+        </div>
+</div>
+
+    <br>
+    <br>
+    <div class="m-4">
+        <div class="d-flex">
+            <div class="flex-shrink-0">
+                <img src="https://www.lifeofpix.com/wp-content/uploads/2018/06/275-ake9822-chim-1600x1090.jpg" width="800px" height="500px" alt="Sample Image">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <h1>The Largest Business Expert</h1>
+                <h5  class="text-muted" style="padding-top: 10px;">These cases are perfectly simple and easy to distinguish. In a free hour,
+                    when our power of choice is untrammelled and when nothing prevents
+                    our being able to do what we like best.</h5>
+                    <ul class="list-unstyled" style="padding-top: 50px;">
+           
+                        <ul class="text-muted font-weight-bold">
+                            <li  style="padding-top: 50px;">Apartments frequently or motionless.</li>
+                            <li style="padding-top: 30px;">Duis aute irure dolor in reprehenderit in voluptate.
+                            </li>
+                            <li style="padding-top: 30px;">Voluptatem quia voluptas sit aspernatur.</li>
+                        </ul>
+                 </div>
+                 
+        </div>
+<br>
+<br>
+<br>
+<div style="display: flex;">
+        <h1 id="projects" style="padding-left: 300px;font-size: 100px;">0+</h1>
+        <h1 id="project2" style="padding-left: 200px;font-size: 100px;">0+</h1>
+        <h1 id="project3" style="padding-left: 200px;font-size: 100px;">0+</h1>
+        </div>
+<br> 
+<br>
+<div class="p-5  bg-light border rounded-3">
+    <h1 style="padding-left: 400px;font-weight: bolder;font-style: oblique;font-size: 60px;">Our Recent Works</h1>
+    <p class="lead" style="padding-left: 200px;color: rgb(233, 98, 19);">These cases are perfectly simple and easy to distinguish. In a free
+        hour, when our power of choice is untrammelled.  </p>
+</div>       
+
+     
+<div class="m-4 d-flex flex-wrap" >
+    <div class="box4" style="height: 500px;width: 800px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://th.bing.com/th/id/OIP.ASObFsjPtxLsnCzn-E0-bgHaE8?pid=ImgDet&w=1200&h=800&rs=1);position: relative;overflow: hidden;margin-right: 50px;">
+       <div class="content-4"  style="background: linear-gradient(rgba(17, 254, 69,0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;width: 100%;color: white;padding: 20px;box-sizing: border-box;">
+       <h1 style="text-align: center;padding-top: 200px;">Laptop</h1>
+       
+           </div>
+           </div>
+
+           <div class="box5" style="height: 500px;width: 500px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://th.bing.com/th/id/OIP.JIpWjbANkJIer32aC0fg1QHaFl?pid=ImgDet&rs=1);position: relative;overflow: hidden;">
+            <div class="content-5"  style="background: linear-gradient(rgba(17, 254, 69,0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;width: 100%;color: white;padding: 20px;box-sizing: border-box;">
+                <h1 style="text-align: center;padding-top: 200px;">Bluetooth Speakers</h1>
+            
+                </div>
+                </div>
+         </div>
+</div>
+
+<div class="m-4 d-flex flex-wrap" >
+         <div class="box6" style="height: 500px;width: 500px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://sethlui.com/wp-content/uploads/2016/04/traveloka-app.jpg);position: relative;overflow: hidden;margin-right: 30px;">
+            <div class="content-6"  style="background: linear-gradient(rgba(17, 254, 69, 0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;width: 100%;color: white;padding: 20px;box-sizing: border-box;">
+                <h1 style="text-align: center;padding-top: 200px;">Smart Phones</h1>
+
+                </div>
+                </div>
+
+                <div class="box7" style="height: 500px;width: 400px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://thesmartlocal.com/wp-content/uploads/2020/04/circuit-breaker-relationships-9-690x460.png);position: relative;overflow: hidden;margin-right: 30px;">
+                    <div class="content-7"  style="background: linear-gradient(rgba(17, 254, 69,0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;width: 100%;color: white;padding: 20px;box-sizing: border-box;">
+                        <h1 style="text-align: center;padding-top: 200px;">Headphones</h1>
+
+                        </div>
+                        </div>
+
+                        <div class="box8" style="height: 400px;width: 400px;background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));background-image: url(https://th.bing.com/th/id/R.26fd92d38eca6515bae8b893dc7a13b0?rik=kVUUCH0AKy7paA&riu=http%3a%2f%2fwww.theruralstudy.org%2ffiles%2f2019%2f09%2fperson-using-smartwatch.jpg&ehk=5hXmdXTXLuHT6O%2blN0UwnRE6DbdF3P8ZXUo1tPaIsBo%3d&risl=&pid=ImgRaw&r=0) ;position: relative;overflow: hidden;">
+                            <div class="content-8"  style="background: linear-gradient(rgba(17, 254, 69,0.6),rgba(0,0,0,0.6));position: absolute;top: 0;left: 0;height: 100%;width: 100%;color: white;padding: 20px;box-sizing: border-box;">
+                                <h1 style="text-align: center;padding-top: 150px;">Smart Watch</h1>
+                                </div>
+                                </div>
+                </div>
+                       
+                <br>
+                <br>
+
+        <!-------------------------------------------------------------->
+
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                        <div class="sec-heading text-center">
+                            <h6 style="font-family: 'Allura';cursive;font-size: 65px;font-weight: bolder;">Team Members</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="team-slider owl-carousel">
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/65VQDfjs/1.png"></div>
+                                    <div class="info-area">
+                                        <h4>Person's Name</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/vmCM14qL/2.png"></div>
+                                    <div class="info-area">
+                                        <h4>Person's Name</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/TYTxWM9S/3.png"></div>
+                                    <div class="info-area">
+                                        <h4>Person's Name</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/593GTHB7/4.png"></div>
+                                    <div class="info-area">
+                                        <h4>Person's Name</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="single-box text-center">
+                                    <div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/tJCrp53r/5.png"></div>
+                                    <div class="info-area">
+                                        <h4>Person's Name</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+        </script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+        </script> 
+        <script>
+               $('.team-slider').owlCarousel({
+                   loop: true,            
+                   nav: false,
+                   autoplay: true,
+                   autoplayTimeout: 5000,
+                   smartSpeed: 450,
+                   margin: 20,
+                   responsive: {
+                       0: {
+                           items: 1
+                       },
+                       768: {
+                           items: 2
+                       },
+                       991: {
+                           items: 3
+                       },
+                       1200: {
+                           items: 3
+                       },
+                       1920: {
+                           items: 3
+                       }
+                   }
+               });
+        </script>
+    
+
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="row bg-dark" style="height:400px">
+
+<div class="col-md-6 "  >
+    <img src="https://preview.colorlib.com/theme/busicol/img/logo.png.webp" height="60px" width="200px" style="margin-top: 100px;margin-left: 300px;">
+    <br>
+    <h5 style="color: aliceblue;margin-top: 20px;margin-left: 300px;">Firmament morning sixth subdue darkness creeping gathered divide.</h5>
+ <span class="d-flex" style="margin-top: 20px;">
+    <a href="#"><img src="C:\Users\Harsh8835\Downloads\Insta logo.png" height="50px" width="50px" style="margin-left: 300px;"></a>
+    <a href="#"><img src="C:\Users\Harsh8835\Downloads\facebook logo.png" height="50px" width="50px" style=""></a>
+    <a href="#"><img src="C:\Users\Harsh8835\Downloads\twitter logo.png" height="50px" width="50px" style=""></a>
+ </span>
+</div>
+<div class="col-3" >
+    <h5 style="color: aliceblue;margin-top: 100px;margin-left: 80px;">Services</h5>
+    <ul style="color: aliceblue;margin-top: 20px;margin-left: 60px;">
+        <li style="margin-bottom: 10px;">Design</li>
+        
+        <li style="margin-bottom: 10px;">Development</li>
+        <li style="margin-bottom: 10px;">Marketing</li>
+        <li style="margin-bottom: 10px;">Conselting</li>
+        <li style="margin-bottom: 10px;">Finance</li>
+    </ul>
+</div>
+<div class="col-3">
+    <h5 style="color: aliceblue;margin-top: 100px;margin-left: 80px;">Address</h5>
+    <h5 style="color: aliceblue;margin-top: 20px;">200, D-block, Green lane USA<br>
+        +10 367 467 8934<br>
+        docmed@contact.com</h5>
+</div>
+
+</div>
+
+<div class="row " style="background-color: rgb(50, 49, 49);">
+    <h5 style="color: aliceblue;margin-top: 20px;margin-left: 400px;">Copyright ©2023 All rights reserved | This template is made with  by Colorlib.</h5>
+
+</div>
+            
+</body>
+</html>
